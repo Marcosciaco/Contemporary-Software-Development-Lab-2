@@ -1,0 +1,3 @@
+FROM ubuntu
+COPY HelloWorld.bash /
+CMD [ "bash", "HelloWorld.bash" ]
